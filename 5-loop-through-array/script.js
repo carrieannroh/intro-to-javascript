@@ -14,7 +14,7 @@ let daysOfWeek = [
 
 console.log("The days of the week are:");
 
-for (fullDayName in daysOfWeek) {
+for (let fullDayName of daysOfWeek) {
   let shortDayName = fullDayName.slice(0, 3);
   console.log(`- ${shortDayName.toUpperCase()}: ${fullDayName}`);
 }
