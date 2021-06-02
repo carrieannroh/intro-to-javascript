@@ -4,6 +4,6 @@
 
 console.log("Teenagers can be:")
 
-for (let ageInYears = 13, ageInYears < 19, ageInYears++) {
+for (let ageInYears = 13; ageInYears <= 19; ageInYears++) {
   console.log(`${ageInYears} years old`);
 }
