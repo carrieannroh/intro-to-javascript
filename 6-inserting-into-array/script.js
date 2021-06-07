@@ -7,8 +7,8 @@ console.log("Let's play a short FizzBuzz, 1-10!");
 let result = [];
 
 for (let n = 1; n <= 10; n++) {
-  result.append(n);
+  result.push(n);
 }
 
-console.log(result);
+console.log(result.join());
 // => [1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz"]
